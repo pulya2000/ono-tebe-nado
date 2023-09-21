@@ -13,7 +13,7 @@
     <header class="header content-section">
       <nav class="header_menu">
         <ul class="header_links-list">
-          <li class="header_links-list_item_no-bullit">
+          <li class="header__menu-list-item header_links-list_item_no-bullit">
             <a class="header_menu-link">главная</a>
           </li>
           <li>
@@ -34,13 +34,16 @@
       
       <address class="address">
         <p>
-          <a class="header_menu-link" href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="tel:+99995555555">+9 999 555 5555</a>
         </p>
         <p>
-          <a class="header_menu-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         </p>
         <p>
-          наб. Принсенграхт 263-265, <br>Амстердам
+          наб. Принсенграхт 263-265,
+        </p>
+        <p>
+          Амстердам
         </p>
       </address>
     </header>
@@ -57,14 +60,14 @@
             те<span class="letter-spacing-extended">бе</span>
           </span>
           <span class="accent-span span-right">
-            <span class="letter-spacing-extended">н<span class="letter-spacing-cover">ад</span></span><span class="no-letter-spacing">о</span>
+            <span class="letter-spacing-extended">н</span><span>ад</span><span class="no-letter-spacing">о</span>
           </span>
         </h1>
         <div class="cover__description">
           <p class="cover__description-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">
+          <button type="button" class="bet-button">
             Сделать ставку
           </button>
         </div>
@@ -128,14 +131,14 @@
             </a>
           </li>
         </ul>
-        <a class="lots__look-more-link header_menu-link" href="#0">
+        <a class="lots__look-more-link" href="#0">
           посмотреть больше
         </a>
       </section>
       <section class="about">
         <div class="about__logo">
           <img class="about__logo-image"
-           src="../ono-tebe-nado/images/logo-white.svg"
+           src="./images/logo-white.svg"
            alt="логотип проекта">
         </div>
         <div class="about__column">
@@ -158,51 +161,46 @@
           </p>
         </div>
       </section>
-      <footer class="footer">
-        <address class="address header_menu-link">
-          <p>
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-          </p>
-          <p>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </p>
-          <p>
-            наб. Принсенграхт 263-265, <br>Амстердам
-          </p>
-        </address>
-        <nav class="footer__menu">
-          <ul class="footer__menu-list">
-            <li class="footer__menu-list-item">
-              <a class="footer__menu-link header_menu-link">
-                главная
-              </a>
-            </li>
-            <li class="footer__menu-list-item">
-              <a class="footer__menu-link header_menu-link" href="#0">
-                посмотреть лоты
-              </a>
-            </li>
-            <li class="footer__menu-list-item">
-              <a class="footer__menu-link header_menu-link" href="#0">
-                об аукционе
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div class="footer__social">
-          <ul class="footer__social-list">
-            <li class="footer__social-list-item">
-              <a class="footer__social-link" href="#0">
-                <img class="footer__social-icon"
-                  src="./images/yt.svg"
-                  alt="ютуб"
-                >
+    </main>
+    <footer class="footer">
+      <address class="address">
+        <p>
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+        </p>
+        <p>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        </p>
+        <p>
+          наб. Принсенграхт 263-265,
+        </p>
+        <p>
+          Амстердам
+        </p>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link">
+              главная
             </a>
           </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#0">
+              посмотреть лоты
+            </a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link" href="#0">
+              об аукционе
+            </a>
+          </li>
+        </ul>
+      </nav>
+        <ul class="footer__social-list">
           <li class="footer__social-list-item">
             <a class="footer__social-link" href="#0">
               <img class="footer__social-icon"
-                src="./images/vk.svg"
+                src="./images/yt.svg"
                 alt="ютуб"
               >
           </a>
@@ -210,14 +208,20 @@
         <li class="footer__social-list-item">
           <a class="footer__social-link" href="#0">
             <img class="footer__social-icon"
-              src="./images/pinterest.svg"
+              src="./images/vk.svg"
               alt="ютуб"
             >
         </a>
       </li>
-          </ul>
-        </div>
-      </footer>
-    </main>
+      <li class="footer__social-list-item">
+        <a class="footer__social-link" href="#0">
+          <img class="footer__social-icon"
+            src="./images/pinterest.svg"
+            alt="ютуб"
+          >
+      </a>
+    </li>
+        </ul>
+    </footer>
   </body>
 </html>
