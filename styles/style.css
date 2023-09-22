@@ -76,18 +76,18 @@
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 25px;
-  letter-spacing: 0.3em;
-  padding: 170px 50px 135px 50px;
-  z-index: 2;
-}
-
-.accent-span {
   font-family: Raleway, sans-serif;
   color: #FFF;
   font-size: 100px;
   font-weight: 700;
   line-height: 100%; /* 100px */
   text-transform: uppercase;
+  letter-spacing: 0.3em;
+  padding: 170px 50px 135px 50px;
+  z-index: 2;
+}
+
+.accent-span {
   display: block;  
 }
 
@@ -116,7 +116,7 @@
   display: flex;
   justify-content: end;
   padding-right: 50px;
-  padding-bottom: 65px;
+  padding-bottom: 50px;
   font-family: Raleway, sans-serif;
   color: #FFF;
   font-size: 22px;
